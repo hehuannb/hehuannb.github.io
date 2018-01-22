@@ -21,8 +21,9 @@ a{
 
 body{
     font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #eee;
+    font-weight: normal;
 }
-/* you can put your code all in one line like above */
+/* you can but your code all in one line like above */
 #page{ margin: 20px; }
 
 /* or on different lines like below */
@@ -32,7 +33,7 @@ body{
 	font-family: georgia;
 	display: inline-block;
 }
-/* but try and be as concise as possible */
+/* but try and be as consist possible */
 #nav{
 	width: 60%;
 	display: inline-block;
@@ -54,6 +55,15 @@ body{
 				box-shadow: 0px 1px 1px #666;
 			}
 			#nav ul li a:active{ background-color: #ff8f00; }
+				#nav ul li.red a{
+					background-color: red;
+				}
+				#nav ul li.orange a{
+					background-color: orange;
+				}
+				#nav ul li.yellow a{
+					background-color: yellow;
+				}
 
 #content{
 	margin: 30px 0;
